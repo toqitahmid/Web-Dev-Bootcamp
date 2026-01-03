@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>User Form</title>
+
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div id="form_header">
+      <h1>User Form</h1>
+    </div>
+    <div>
+      <form id="userform">
+        <div class="useritem">
+          <label class="userele" for="name">Name:</label>
+          <input class="userele" type="text" id="name" name="name" required />
+        </div>
+        <br />
+        <div  class="useritem">
+          <label class="userele" for="email">Email:</label>
+          <input class="userele" type="text" id="email" name="email" />
+        </div>
+        <br />
+        <div class="useritem">
+          <label for="birthdate">Date Of Birth</label>
+          <input type="date" name="birthdate" id="birthdate" />
+        </div>
+        <br />
+        <div class="useritem">
+          <label for="citizen">Which country from you belongs</label>
+          <select id="citizen">
+            <option value="citizen">Country Name</option>
+            <option value="citizen">Bangladesh</option>
+            <option value="citizen">India</option>
+            <option value="citizen">Pakistan</option>
+            <option value="citizen">Nepal</option>
+            <option value="citizen">USA</option>
+            <option value="citizen">Canada</option>
+          </select>
+        </div>
+        <br />
+        <div class="useritem">
+          <label for="profession">Profession</label>
+          <select id="profession">
+            <option value="profession">Select One</option>
+            <option value="profession">Student</option>
+            <option value="profession">Job holder</option>
+            <option value="profession">Job seeker</option>
+            <option value="profession">Housewife</option>
+            <option value="profession">Others</option>
+          </select>
+        </div>
+        <br />
+        <div class="useritem">
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gander" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gander" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gander" id="Others" />
+          <label for="Others">Others</label>
+        </div>
+        <br />
+        <div class="useritem">
+          <label for="phnNo">Phone Number:</label>
+          <input class="userele" type="tel" name="phnNo" id="phnNo" />
+        </div>
+        <br />
+        <div class="useritem">
+          <label for="comment">Enter your comment</label>
+          <br />
+          <br />
+          <textarea
+            name="commnet"
+            id="comment"
+            rows="10"
+            cols="35"
+            required
+            placeholder="commnet now"
+          ></textarea>
+        </div> 
+        <br />
+        <div class="useritem">
+          <button class="btn" type="reset">Reset</button>
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

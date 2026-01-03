@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-items: center;
+}
+#form_header{
+    margin-top: 20px;
+}
+#userform{
+    margin-top: 20px;
+    width: 350px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: azure;
+}
+.useritem{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.userele{
+    padding: 10px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
