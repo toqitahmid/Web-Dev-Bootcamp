@@ -1,0 +1,25 @@
+main{
+padding: 180px;
+}
+
+#about-me{
+    background-color:#FFF8F3;
+    padding: 50px 80px;
+    text-align: center;
+    border-radius: 10px;
+}
+#about-me h2{
+    margin-bottom: 20px;
+}
+#info-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.cards{
+    margin: 10px;
+    border: 1px solid #e9a879;
+    padding: 20px;
+    border-radius: 10px;
+}

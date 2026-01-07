@@ -1,0 +1,97 @@
+/* Univarsal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.poppins-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+/* header background images (two layers) */
+#bg {
+  background: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  background-color: #FFF8F3;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px 0px 180px;
+}
+
+.navbar h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+.navbar #name-style{
+    color: #FD6E0A;
+}
+
+#navbar-element {
+    gap: 20px;
+    padding: 10px 110px 0px 0px;
+    font-size: 20px;
+}
+#navbar-element a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+/* Hero Section  */
+#hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+#hero-section #p1{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 500;
+}
+#hero-section #p2{
+    font-size: 85px;
+    color: black;
+    font-weight: 900;
+}
+#hero-section #p3{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+#pro-img img{
+    width: 450px;
+    padding-right: 80px;
+}
+#info{
+    padding: 0px 0px 0px 180px;
+}
+/* Button Section */
+.btn{
+    color: white;
+    background-color: #FD6E0A;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-size: 15px;
+    padding:10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn-X{
+    color: white;
+    background-color: #FD6E0A;
+    margin-right: 10px;
+    font-size: 15px;
+    padding:10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

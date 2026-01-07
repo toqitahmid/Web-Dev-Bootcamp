@@ -1,0 +1,29 @@
+#work-section{
+    margin-top: 180px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#work-section p{
+    margin-top: 30px;
+}
+
+#work-cards{
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+.work-card{
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 2px 7px rgb(215, 214, 214);
+}
+.work-card h3{
+    margin-top: 20px;
+}
+.work-card p{
+    margin-top: 20px;
+    text-align: justify;
+}
