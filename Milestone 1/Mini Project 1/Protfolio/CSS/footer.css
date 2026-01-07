@@ -1,0 +1,32 @@
+#footer-item{
+    display: flex;
+    background-color: #FFF8F3;
+}
+.footer-card{
+    margin: 0px 140px 110px 140px;
+    padding: 60px;
+}
+#social-ic{
+    margin-top: 40px;
+}
+#social-ic{
+    gap: 20px;
+}
+.footer-card input{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.footer-card textarea{
+    margin-top: 20px;
+    width: 400px;
+    height: 220px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: lighter;
+
+}

@@ -1,0 +1,33 @@
+#education_experience_header{
+    text-align: center;
+    margin: 180px 0px 80px 0px;
+}
+
+#education_experience{
+    display: flex;
+    justify-content: space-around;
+}
+
+.edu-ex_card{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #dddddd;
+}
+#education_experience h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.edu-ex_card h4{
+    margin-bottom: 5px;
+}
+.edu-ex_card p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#cv{
+    display: flex;
+    justify-content: center;
+}
