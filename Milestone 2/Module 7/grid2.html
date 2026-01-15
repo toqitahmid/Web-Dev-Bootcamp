@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: grid;
+            grid-template-columns: 30% 69.5%;
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        .box{
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98vh;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+
+        @media screen and (max-width: 360px){
+            section{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            .box1{
+                height: 20vh;
+            }
+            .box2{
+                height: 75vh;
+            }
+        }        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box box1">Left</div>
+        <div class="box box2">Right</div>
+    </section>
+</body>
+</html>
