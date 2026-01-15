@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 200px);
+        row-gap: 2px;
+        column-gap: 2px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .a {
+        grid-column: span 6;
+        grid-row: span 2;
+      }
+      .b {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .c {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .d {
+        grid-column: span 2;
+        grid-row: span 1;
+      }
+      .e {
+        grid-column: span 2;
+        grid-row: span 1;
+      }
+      .f {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .g {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+      .g {
+      }
+      .i {
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+
+      @media screen and (max-width: 657px) {
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="img-box a">
+          <img src="./images/A.jpg" alt="" />
+        </div>
+        <div class="img-box b">
+          <img src="./images/B.jpg" alt="" />
+        </div>
+        <div class="img-box c">
+          <img src="./images/C.jpg" alt="" />
+        </div>
+        <div class="img-box d">
+          <img src="./images/D.jpg" alt="" />
+        </div>
+        <div class="img-box e">
+          <img src="./images/E.jpg" alt="" />
+        </div>
+        <div class="img-box f">
+          <img src="./images/F.jpg" alt="" />
+        </div>
+        <div class="img-box g">
+          <img src="./images/G.jpg" alt="" />
+        </div>
+        <div class="img-box g">
+          <img src="./images/G.jpg" alt="" />
+        </div>
+        <div class="img-box i">
+            <img src="./images/I.jpg" alt="" />
+        </div>
+        <div class="img-box g">
+          <img src="./images/G.jpg" alt="" />
+        </div>
+        <div class="img-box g">
+          <img src="./images/G.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
