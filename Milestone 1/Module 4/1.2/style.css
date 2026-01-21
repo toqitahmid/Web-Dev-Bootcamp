@@ -1,0 +1,100 @@
+#intro-header{
+    margin: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+#pithasec{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    padding: 20px;
+}
+
+.pitha-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 10px 2px;
+    background-color: antiquewhite;
+}
+.pitha-card:hover{
+    color: rgb(136, 25, 51);
+}
+
+.pitha-card img{
+    border-radius: 5px;
+}
+
+.pitha-card p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.pitha-card2{
+    flex-wrap: wrap-reverse;
+}
+hr{
+    margin: 20px 40px;
+    
+}
+
+            /* User form  */
+
+#form-header{
+    text-align: center;
+    margin: 60px 0px 20px 0px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+}
+#userform{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width:350px;
+    height: 450px;
+    background-color: rgb(248, 212, 172);
+    margin-bottom: 20px;
+    border-style: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -1px 1px 10px 01px rgb(68, 58, 41);
+}
+.form-element{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.form-element input{
+    /* width: 150px; */
+    height: 20px;
+    border-radius: 5px;
+}
+.form-element #password{
+    width: 140px;
+}
+.form-element #phnno{
+    width: 150px;
+}
+.form-element textarea{
+    border-radius: 10px;
+}
+.form-element
+.btn{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-style: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(242, 246, 212);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(233, 227, 227);
+}
