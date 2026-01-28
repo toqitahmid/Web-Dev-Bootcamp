@@ -6,8 +6,9 @@ let reverseName = "";
 // }
 // console.log(reverseName);
 
-for(let i = name.length; i>=0; i--){
-    reverseName += name[i];    
+for(let i = 0; i < name.length; i++){
+    const char = name[i];
+    reverseName = char+reverseName;    
 }
 console.log(reverseName);
 console.log(typeof(reverseName));
