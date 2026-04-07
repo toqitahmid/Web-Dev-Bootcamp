@@ -42,8 +42,10 @@
 
     <script>
         document.getElementById("list1")
-            .addEventListener("click", function(){
+            .addEventListener("click", function(event){
                 console.log("list 1 clicked");
+
+                event.stopImmediatePropagation();
             })
             document.getElementById("section")
                 .addEventListener("click", function(){
