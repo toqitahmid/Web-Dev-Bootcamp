@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler</title>
+</head>
+<body>
+    <main>
+        <h1 id="pageHeader">Hello Event Handler</h1>
+        <button id="changefont">Click Me</button>
+        <br>
+    </main>
+    <script>
+        // changefont.onclick = function changeFont(){
+            // }
+            document.getElementById("changefont")
+            .addEventListener('click', function(){
+                // console.log("btn clicked");
+                document.getElementById("changefont").style.fontSize = "40px";
+
+                const pageH1 = document.getElementById("pageHeader");
+                pageH1.innerText = "Updated Header";
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event With DOM</title>
+</head>
+
+<body>
+    <main>
+        <h1>
+            Here We Create Events
+        </h1>
+        <button onclick="makeYollow()">Click Me</button>
+        <button onclick="makeRed()">Once More</button>
+        <button id="makePurple">Make Purple</button>
+    </main>
+    <script>
+        function makeYollow() {
+            document.body.style.background = "yellow";
+        }
+        function makeRed(){
+            document.body.style.background = "red";
+        }
+        makePurple.onclick = function btnPurple(){
+            document.body.style.background = "purple";
+        }
+    </script>
+</body>
+
+</html>

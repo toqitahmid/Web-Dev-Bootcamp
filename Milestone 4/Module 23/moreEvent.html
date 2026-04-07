@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Event</title>
+</head>
+<body>
+    <main>
+        <button id="mouse-enter">Mouse Enter</button>
+        <button id="mouse-out">Mouse Out</button>
+    </main>
+
+    <script>
+        document.getElementById("mouse-enter")
+            .addEventListener("mouseenter", function(){
+                console.log("Event Triggered");
+            })
+        document.getElementById("mouse-out")
+            .addEventListener('mouseout', function(){
+                console.log("Event out");
+            })
+    </script>
+</body>
+</html>

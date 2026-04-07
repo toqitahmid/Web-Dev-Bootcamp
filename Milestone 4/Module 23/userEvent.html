@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Event Handler</title>
+</head>
+<body>
+    <main>
+        
+        <p id="massage">Hello One</p>
+        <input placeholder="name" id="username" type="text">
+        <button id="updateName">update</button>
+    </main>
+    <script>
+        document.getElementById("updateName")
+        .addEventListener("click", function updatedUserName(){
+            const Userinfo = document.getElementById("username");
+            const name = Userinfo.value;
+            console.log(name);
+
+            const massageUpdate = document.getElementById("massage");
+            massageUpdate.innerText = " Hello " + name;
+        })
+    </script>
+</body>
+</html>

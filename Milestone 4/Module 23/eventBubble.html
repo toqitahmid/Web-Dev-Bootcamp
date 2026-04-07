@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubble</title>
+    <style>
+        body{
+            border: 2px solid orange;
+            margin: 20px;
+        }
+        main{
+            border: 2px solid brown;
+            margin: 20px;
+        }
+        section{
+            border: 2px solid blueviolet;
+            margin: 20px;
+        }
+        ul{
+            border: 2px solid green;
+            margin: 20px;
+        }
+        li{
+            border: 2px solid salmon ;
+            margin: 20px;
+        }
+        </style>
+</head>
+<body id="body-section">
+    <main id="main-section">
+        <section id="section">
+            <ul id="ul-section">
+                <li class="list" id="list1">1</li>
+                <li class="list" id="list2">2</li>
+                <li class="list" id="list3">3</li>
+                <li class="list" id="list4">4</li>
+                <li class="list" id="list5">5</li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById("list1")
+            .addEventListener("click", function(){
+                console.log("list 1 clicked");
+            })
+            document.getElementById("section")
+                .addEventListener("click", function(){
+                    console.log("section clicked");
+                })
+            document.getElementById("body-section")
+                .addEventListener("click", function(){
+                    console.log("body clicked");
+                })
+    </script>
+</body>
+</html>
