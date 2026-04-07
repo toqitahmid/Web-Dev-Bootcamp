@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling With DOM</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <main id="body">
+        <h1 id="main-header">Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab quibusdam illo voluptatum assumenda ullam,
+            eum laudantium, harum dolores expedita atque ea, deleniti beatae. Ipsam magnam dolorem dolorum rem nobis
+            quae natus doloremque, laudantium id quisquam porro corrupti distinctio ipsum!</p>
+        
+        <ul>
+            <li class="list-item">1</li>
+            <li class="list-item">2</li>
+            <li class="list-item">3</li>
+            <li class="list-item">4</li>
+            <li class="list-item">5</li>
+        </ul>
+
+
+    </main>
+    <script>
+        const style1 = document.getElementById("body");
+        style1.style.background = 'whitesmoke'
+
+        const style2 = document.getElementsByClassName("list-item");
+        for(const styles of style2){
+            styles.style.background =  "purple";
+            styles.style.padding = "30px";
+        }
+
+        const nodes = document.getElementById("body").childNodes;
+        console.log(nodes);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat new HTML Element With DOM</title>
+</head>
+<body>
+    <main>
+        <ul id="fish-collection">
+            <li>Hilsha</li>
+            <li>Pabda</li>
+        </ul>
+    </main>
+    <script>
+        const creatList = document.createElement("li");
+        creatList.innerText = "Catfish";
+
+        const fishItem = document.getElementById("fish-collection");
+        fishItem.append(creatList);
+    </script>
+</body>
+</html>

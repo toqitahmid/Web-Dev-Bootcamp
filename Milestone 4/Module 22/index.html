@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Of DOM</title>
+</head>
+
+<body>
+    <main>
+        <h1>
+            DOM - Document Object Model
+        </h1>
+        <p>
+            . It is a programming interface (API) that represents HTML or XML documents as a tree structure of nodes and
+            objects. It allows programming languages like JavaScript to dynamically access, add, modify, or delete the
+            content, structure, and style of a web page.
+        </p>
+        
+        <ul>
+            <li>Messi</li>
+            <li>Ronaldo</li>
+            <li>Ozil</li>
+        </ul>
+    </main>
+    <script>
+        // console.log("Hello DOM");
+        // console.log("DOM gone");
+
+        const Student = {
+            name : "Toqi Tahmid",
+            age : 21,
+        }
+
+        const listItem = document.getElementsByTagName("li");
+        console.log(listItem)
+
+        for(let item of listItem){
+            console.log(item.innerText);
+        }
+    </script>
+    <!-- <script src="./JS/script.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Elements Method</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Bangladesh Playing XI</h1>
+    </header>
+    <main>
+        <ul>
+            <li class="Opening-batter">Tanzid</li>
+            <li class="Opening-batter">Saif</li>
+            <li>Liton</li>
+            <li>Emon</li>
+            <li>Tawhid Hridoy</li>
+            <li>Sheikh Mahedi</li>
+            <li>Risad</li>
+            <li>Shoriful</li>
+            <li id="Cutter-master">Mustafiz</li>
+            <li>Nahid Rana</li>
+            <li>Alis Al Islam</li>
+        </ul>
+        <div id="another">
+            <p class="child">
+                Lorem ipsum dolor, sit amet <span>consectetur</span> adipisicing elit. Tenetur minima aut, expedita
+                tempore quasi
+                alias aperiam adipisci consequuntur omnis ipsam accusantium nam eum velit sit nihil amet, animi culpa
+                magni cumque fugiat delectus aliquam sapiente, <span>reprehenderit</span> laborum. Dicta error atque
+                laudantium
+                voluptatibus <span>consequuntur </span>illum maxime a nemo. Accusantium, odit culpa!
+            </p>
+            <p class="child">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, aut debitis. Architecto ipsa culpa,
+                delectus odit ullam quo mollitia ipsum voluptatibus alias commodi optio tempore earum rem enim tenetur
+                et quasi ut autem <span>nisi</span> dicta eius! Praesentium molestias excepturi aut!
+            </p>
+            <h2>Lorem ipsum <span>dolor</span> sit amet.</h2>
+        </div>
+    </main>
+    <script>
+        const listText = document.getElementsByClassName("Opening-batter");
+        const bowler = document.getElementById("Cutter-master")
+        for (let item of listText) {
+
+            console.log(item.innerText);
+        }
+        console.log(bowler.innerText);
+
+        const listText2 = document.getElementById("Cutter-master");
+        listText2.innerText = 'Butterfly';
+
+        console.log(listText2.innerText);
+
+        const listText3 = document.querySelectorAll('#another p  span');
+        for(let item of listText3){
+
+            console.log(item.innerText)
+        }
+    </script>
+</body>
+
+</html>

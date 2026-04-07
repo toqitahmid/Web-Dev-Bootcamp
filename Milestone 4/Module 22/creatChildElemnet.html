@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat Child Element by DOM</title>
+</head>
+
+<body id="mainBody">
+    <section>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, nemo reiciendis libero nesciunt blanditiis
+            eos laudantium eum quae! Autem dolore animi, corrupti, cumque, nobis sint accusantium natus tenetur optio
+            illum delectus dolor exercitationem. Sunt commodi ipsam ratione dolor molestiae quos itaque et, fuga
+            repellat perspiciatis eveniet esse voluptate ad quo!</p>
+    </section>
+</body>
+<script>
+    const createChildNode = document.createElement("Section");
+    const mainBody = document.getElementById("mainBody");
+    mainBody.appendChild(createChildNode);
+
+    const createH1 = document.createElement("h1");
+    createH1.innerText = "This is another header";
+    createChildNode.appendChild(createH1);
+
+    const createUl = document.createElement("ul");
+    const createList = document.createElement("li");
+    createList.innerText = "1";
+    createUl.appendChild(createList);
+    createChildNode.appendChild(createUl);
+</script>
+
+</html>
