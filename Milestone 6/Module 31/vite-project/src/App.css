@@ -183,8 +183,9 @@
   }
 }
 
-.page{
-  border: 2px solid salmon;
+.person{
+  background-color: brown;
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
+  color: white;
 }

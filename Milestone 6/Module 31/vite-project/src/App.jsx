@@ -1,70 +1,38 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from './assets/vite.svg'
-// import heroImg from './assets/hero.png'
 import './App.css'
-import ToDo from './Todo.jsx'
-import Student from './student.jsx';
+import Student from './Props';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
-  const s = ['Araf','Toqi', 'Tahmid'];
 
   return (
     <>
-    <Person></Person>
-    <Person></Person>
-    <Person></Person>
-    <Name></Name>
-    <Name></Name>
-    <Name></Name>
-    <UserInfo name="Araf"></UserInfo>
-    <UserInfo name="Toqi"></UserInfo>
-    <ToDo task = "Learn Js" isDone={true}></ToDo>
-    <ToDo task = "Learn React" isDone={false}></ToDo>
-
-    {
-    s.map(student => <Student student ={student}></Student>)
-    }
-
+      <section id="center">
+        <div>
+          <h1>React Core Concepts</h1>
+          <Person name = 'Araf' id = '21'></Person>
+          <Person name = 'Toqi' id = '18'></Person>
+          <Person name = 'Sams' id = '16'></Person>
+          <br />
+          <br />
+          <Student name = 'Farhan' isPass = {true}></Student>
+          <Student name = 'Sami' isPass = {false}></Student>
+          <Student name = 'Anjum' isPass = {true}></Student>
+        </div>
+      </section>
     </>
   )
 }
 
-function Person(){
-  return(
-    <p className='page'>This is My Only React Web Page</p>
-  )
-  
-}
+function Person({name, id}){
 
-const personStyle =  {
-  color: 'red',
-  border: '2px solid white',
-  padding: '10px',
-  margin: '5px',
-}
-
-function Name(){
-  const name = "toqi";
+  const age = 21;
   return(
-    <p style={personStyle}>Dev Name : {name}</p>
+    <div className='person'>
+    <p>This is {name}</p>
+    <p>His age is : {age}</p>
+    <p>Id : {id}</p>
+    <br />
+    </div>
   )
 }
 
-const styleUserName = {
-  border: "2px solid green",
-  color: 'purple',
-  padding: '10px',
-  margin: '5px',
-  // Text: 'bold'
-}
-
-function UserInfo (Props) {
-  console.log(Props);
-  return(
-    <p style={styleUserName}>Developer: {Props.name}</p>
-  )
-}
 export default App
