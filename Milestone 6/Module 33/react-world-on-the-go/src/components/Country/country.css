@@ -1,0 +1,34 @@
+.countrySection{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.visit-country{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+@media screen and (max-width: 480px) {
+.countrySection{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.visit-country{
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+.countrySection img{
+    width: 180px;
+}
+
+}
