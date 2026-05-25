@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Airburd",
+      "price": 49.99,
+      "category": "Electronics",
+      "brand": "SoundCore",
+      "stock": 120,
+      "rating": 4.5,
+      "description": "High-quality wireless headphones with noise cancellation."
+    },
+    {
+      "id": 2,
+      "name": "Gaming Mouse",
+      "price": 29.99,
+      "category": "Electronics",
+      "brand": "LogiTech",
+      "stock": 80,
+      "rating": 4.3,
+      "description": "Ergonomic gaming mouse with RGB lighting and fast response."
+    },
+    {
+      "id": 3,
+      "name": "Gaming Keyboard",
+      "price": 79.99,
+      "category": "Electronics",
+      "brand": "Redragon",
+      "stock": 60,
+      "rating": 4.7,
+      "description": "Durable mechanical keyboard with blue switches."
+    },
+    {
+      "id": 4,
+      "name": "Smart Phone",
+      "price": 99.99,
+      "category": "Wearables",
+      "brand": "FitPulse",
+      "stock": 45,
+      "rating": 4.4,
+      "description": "Track your fitness, heart rate, and notifications on the go."
+    },
+    {
+      "id": 5,
+      "name": "USB-C Charger",
+      "price": 19.99,
+      "category": "Accessories",
+      "brand": "Anker",
+      "stock": 200,
+      "rating": 4.6,
+      "description": "Fast charging USB-C adapter for multiple devices."
+    }
+  ]
+}
