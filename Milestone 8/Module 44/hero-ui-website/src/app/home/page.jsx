@@ -1,0 +1,13 @@
+import React from 'react';
+
+const HomePage = () => {
+    return (
+        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+            <h1>
+                Welcome to the Home Page!
+            </h1>
+        </div>
+    );
+};
+
+export default HomePage;
