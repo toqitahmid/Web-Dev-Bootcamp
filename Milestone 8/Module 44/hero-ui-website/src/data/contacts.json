@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "John Anderson",
+    "email": "john.anderson@example.com",
+    "phone": "+1 202-555-0147",
+    "message": "Hello, I would like to discuss a potential collaboration for a web development project."
+  },
+  {
+    "id": 2,
+    "name": "Sarah Mitchell",
+    "email": "sarah.mitchell@example.com",
+    "phone": "+1 303-555-0192",
+    "message": "We are looking for a frontend developer to help redesign our company website."
+  },
+  {
+    "id": 3,
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "phone": "+1 415-555-0118",
+    "message": "Can you provide more information about your backend development services?"
+  },
+  {
+    "id": 4,
+    "name": "Emily Carter",
+    "email": "emily.carter@example.com",
+    "phone": "+1 617-555-0176",
+    "message": "I’m interested in building a modern portfolio website for our brand."
+  },
+  {
+    "id": 5,
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "phone": "+1 718-555-0125",
+    "message": "Please contact me regarding a full-stack application development opportunity."
+  }
+]
